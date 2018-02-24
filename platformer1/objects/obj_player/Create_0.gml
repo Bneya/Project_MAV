@@ -20,3 +20,9 @@ scr_creatui();
 /// Posibles estados: ground, attack, dash, air, water, hit, crouch
 state = "ground";
 phy_fixed_rotation = true;
+
+
+//Variables de control
+
+respuesta_i = 0;
+respuesta_f = 0;

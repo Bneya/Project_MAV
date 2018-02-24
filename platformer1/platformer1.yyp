@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "c7ef7bac-6be7-4a80-a44e-4c62b1f18404",
+            "Value": {
+                "id": "cabca568-bab5-493b-b37c-8bdca9098adb",
+                "resourcePath": "objects\\obj_butparent\\obj_butparent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c85eeee7-7295-4f23-99e0-6b6e787641ee",
             "Value": {
                 "id": "34575c4c-6dd2-4f44-89c1-cca0a97ef5d6",

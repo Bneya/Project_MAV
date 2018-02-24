@@ -13,3 +13,9 @@ max_x = obj_stickback.x + obj_stickback.sprite_width / 2;
 min_x = obj_stickback.x - obj_stickback.sprite_width / 2;
 max_y = obj_stickback.y + obj_stickback.sprite_height / 2;
 min_y = obj_stickback.y - obj_stickback.sprite_height / 2;
+
+
+//Setea cosas para detectar toques
+
+//gesture_double_tap_time(0.01);
+//gesture_drag_time(0.01);

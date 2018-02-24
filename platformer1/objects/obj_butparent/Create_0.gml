@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//scr_jump();
-
-keyboard_key_press(vk_space);
-keyboard_key_release(vk_space);
+gesture_double_tap_time(0.0);
+gesture_drag_time(0.01);
