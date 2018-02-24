@@ -3,6 +3,7 @@
 
 actual_distance = 0;
 spd_multiplier = 0;
+pressed = false;
 
 posx = obj_stickback.x + (sprite_width / 2);
 posy = obj_stickback.y + (sprite_height / 2);
