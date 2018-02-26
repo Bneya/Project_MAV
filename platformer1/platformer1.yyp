@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "c8b5a47a-2f93-4350-9eaa-6dd46455783b",
+            "Value": {
+                "id": "05fd950a-1fdb-4baa-8eb3-f307afa6db7a",
+                "resourcePath": "sprites\\creado_benja\\creado_benja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "a9eead6d-bfe5-4a68-9fb5-826549bcdd06",
