@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "c2609772-f286-4716-93db-dab88cff57c2",
+            "Value": {
+                "id": "68a7b304-be2b-434e-8ab3-509db84e878a",
+                "resourcePath": "sprites\\creado_notebook\\creado_notebook.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c47893d7-450b-4e5e-bc2e-6f3565fd71ea",
             "Value": {
                 "id": "38c09ae7-d42a-43b8-894f-3b15657dfd28",
