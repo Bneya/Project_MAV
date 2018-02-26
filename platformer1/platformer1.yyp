@@ -66,7 +66,7 @@
             "Key": "34a50ead-b7ec-4ba2-a318-e8e1215901e8",
             "Value": {
                 "id": "04511a68-bf5e-44a4-b617-11be7ce0fe2e",
-                "resourcePath": "sprites\\bg_grass\\bg_grass.yy",
+                "resourcePath": "sprites\\bgr_grass\\bgr_grass.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -115,6 +115,14 @@
             "Value": {
                 "id": "27649f37-094f-4f7d-b5be-37f510015494",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65165e2a-0508-4bbb-bb19-3c0b5fb0ed77",
+            "Value": {
+                "id": "7619c840-7b8c-4ba2-8115-b14b98fe2817",
+                "resourcePath": "sprites\\spr_new_player\\spr_new_player.yy",
                 "resourceType": "GMSprite"
             }
         },

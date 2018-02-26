@@ -2,7 +2,7 @@
     "id": "34a50ead-b7ec-4ba2-a318-e8e1215901e8",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "bg_grass",
+    "name": "bgr_grass",
     "For3D": false,
     "HTile": false,
     "VTile": false,
