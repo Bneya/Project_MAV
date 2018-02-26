@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "7fb6cd88-eac7-44bb-bc4c-0148bd32d896",
+            "Value": {
+                "id": "cb3dddbb-9e90-4058-bf9c-4ec945c7fe7e",
+                "resourcePath": "sprites\\creato_pcgrande\\creato_pcgrande.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83f15116-9d66-42ac-a8fa-f7151cffc6f8",
             "Value": {
                 "id": "9dbd1534-7bcd-4eba-9f04-858f4d555258",
