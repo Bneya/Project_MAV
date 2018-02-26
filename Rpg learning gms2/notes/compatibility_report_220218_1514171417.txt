@@ -1,0 +1,84 @@
+Converting GML script: ${project_dir}\scripts\scr_get_input\scr_get_input.gml
+Converted description /// @description scr_get_input
+Converted string - line 7: 'C' -> "C"
+
+Converting GML script: ${project_dir}\scripts\scr_move_state\scr_move_state.gml
+Converted description /// @description scr_move_state
+
+Converting GML script: ${project_dir}\scripts\scr_dash_state\scr_dash_state.gml
+Converted description /// @description scr_dash_state
+
+Converting GML script: ${project_dir}\scripts\scr_frozen_state\scr_frozen_state.gml
+Converted description /// @description scr_frozen_state
+
+Converting GML script: ${project_dir}\objects\obj_enemy_slime\Create_0.gml
+Converted description /// @description initialize slime
+
+Converting GML script: ${project_dir}\objects\obj_enemy_slime\Step_0.gml
+Converted description /// @description Move the slime
+
+Converting GML script: ${project_dir}\objects\obj_view\Step_0.gml
+Converted description /// @description Move 10% towards the player
+
+Converting GML script: ${project_dir}\objects\obj_humun\Step_0.gml
+Converted description /// @description joystick movement
+
+Converting GML script: ${project_dir}\objects\obj_wall\Collision_def3baa3-0812-4568-b64b-8c4c5d722326.gml
+Converted description /// @description collide
+
+Converting GML script: ${project_dir}\objects\obj_dash_effect\Create_0.gml
+Converted description /// @description Initialize the dash effect
+
+Converting GML script: ${project_dir}\objects\obj_dash_effect\Step_0.gml
+Converted description /// @description Fade
+
+Converting GML script: ${project_dir}\objects\obj_joystick\Create_0.gml
+Converted description /// @description Initialize joystick
+
+Converting GML script: ${project_dir}\objects\obj_joystick\Step_0.gml
+Converted description /// @description Move jostick
+
+Converting GML script: ${project_dir}\objects\obj_lifeform_parent\Create_0.gml
+Converted description /// @description Initialize all life forms
+
+Converting GML script: ${project_dir}\objects\obj_lifeform_parent\Step_0.gml
+Converted description /// @description  Controll the depth
+
+Converting GML script: ${project_dir}\objects\obj_lifeform_parent\Collision_04efb5e2-9637-4346-8176-288b0bf21d90.gml
+Converted description /// @description Collide self
+
+Converting GML script: ${project_dir}\objects\obj_lifeform_parent\Collision_8bb8b51b-1895-437d-acd1-4b8da027df11.gml
+Converted description /// @description Collide wall
+
+Converting GML script: ${project_dir}\objects\obj_lifeform_parent\Collision_427b5138-60b8-4b78-a32d-8cc95c31d07b.gml
+Converted description /// @description Collide self
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description Set inicial variables
+
+Converting GML script: ${project_dir}\objects\obj_player\Alarm_1.gml
+Converted description /// @description Alarm for dash state
+
+Converting GML script: ${project_dir}\objects\obj_player\Alarm_0.gml
+Converted description /// @description Back to normal movement
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted description /// @description  move the player in the step event
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_be046873-25f3-4640-bf88-6db42c79b5ed.gml
+Converted description /// @description collide
+
+Converting GML script: ${project_dir}\objects\obj_player\Draw_0.gml
+Converted description /// @description Draw the shadow
+
+Converting GML script: ${project_dir}\objects\obj_player\KeyPress_70.gml
+Converted description /// @description Set frozen_state
+
+Missing audiogroup for sound: 'sound0' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_wrap.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
