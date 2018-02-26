@@ -10,19 +10,37 @@ min_x = obj_stickback.x - obj_stickback.sprite_width / 2;
 max_y = obj_stickback.y + obj_stickback.sprite_height / 2;
 min_y = obj_stickback.y - obj_stickback.sprite_height / 2;
 
-//Verifica si se sostiene el stick a la derecha o izquierda
-var sentido = sign(mouse_x - posx);
+var dedo = obj_stickfront.dedo;
 
 
-//Calcula el modificador de velocidad
-obj_stickfront.actual_distance = sqrt(sqr(posx - mouse_x) + sqr(posy - mouse_y)) / max_distance;
-obj_stickfront.spd_multiplier = min(obj_stickfront.actual_distance, 1) * sentido;
+
+if device_mouse_check_button(dedo, mb_left) {
+	var xmouse = device_mouse_x(dedo);
+	var ymouse = device_mouse_y(dedo);
+	
+	//Verifica si se sostiene el stick a la derecha o izquierda
+	var sentido = sign(xmouse - posx);
+
+	//Calcula el modificador de velocidad
+	obj_stickfront.actual_distance = sqrt(sqr(posx - xmouse) + sqr(posy - ymouse)) / max_distance;
+	obj_stickfront.spd_multiplier = min(obj_stickfront.actual_distance, 1) * sentido;
 
 
-//Mueve el stick acorde al click
+	//Mueve el stick acorde al click
 
-real_x = mouse_x - (sprite_width / 2);
-real_y = mouse_y - (sprite_height / 2);
 
-obj_stickfront.x = max(min_x, min(max_x, real_x));
-obj_stickfront.y = max(min_y, min(max_y, real_y));
+
+
+	real_x = xmouse - (obj_stickback.sprite_width / 2);
+	real_y = ymouse - (obj_stickback.sprite_height / 2);
+	
+
+
+	obj_stickfront.x = max(min_x, min(max_x, real_x));
+	obj_stickfront.y = max(min_y, min(max_y, real_y));
+	
+}
+// --------------------------------------------------------------------------------
+
+
+

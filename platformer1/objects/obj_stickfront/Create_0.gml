@@ -5,6 +5,8 @@ actual_distance = 0;
 spd_multiplier = 0;
 pressed = false;
 
+dedo = "no";
+
 posx = obj_stickback.x + (sprite_width / 2);
 posy = obj_stickback.y + (sprite_height / 2);
 max_distance = obj_stickback.sprite_width / 2;
@@ -17,5 +19,5 @@ min_y = obj_stickback.y - obj_stickback.sprite_height / 2;
 
 //Setea cosas para detectar toques
 
-//gesture_double_tap_time(0.01);
-//gesture_drag_time(0.01);
+gesture_double_tap_time(0.01);
+gesture_drag_time(0.01);

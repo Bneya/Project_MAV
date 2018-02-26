@@ -8,3 +8,6 @@ if !mouse_check_button(mb_left){
 	// x = obj_stickback.x;
 	// y = obj_stickback.y;
 }
+
+spd_multiplier = 0;
+pressed = false;
