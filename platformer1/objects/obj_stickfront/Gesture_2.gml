@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-pressed = true;
+
 
 
 //Checkea qué dedo tocó el stick
@@ -15,3 +15,5 @@ if device_mouse_check_button(0, mb_left) {
 if device_mouse_check_button(1, mb_left) {
 	dedo = 1;
 }
+
+pressed = true;

@@ -14,6 +14,7 @@ var dedo = obj_stickfront.dedo;
 
 
 
+
 if device_mouse_check_button(dedo, mb_left) {
 	var xmouse = device_mouse_x(dedo);
 	var ymouse = device_mouse_y(dedo);

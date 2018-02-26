@@ -2,7 +2,7 @@
     "id": "eb2d6a88-6e24-47ab-bdf2-732785e8b3ee",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "stick_front",
+    "name": "spr_stick_front",
     "For3D": false,
     "HTile": false,
     "VTile": false,

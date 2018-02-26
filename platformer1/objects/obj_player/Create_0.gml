@@ -5,15 +5,18 @@ hspd = 0;
 vspd = 0;
 jump_h = 20;
 accel = 1;
+current_dash = 0;
+facing = 1;
 
 // Stats del personaje
 mspd = 10;
+dash_spd = 40;
 
 
 
 //------------------Crea la UI-------------------------
 
-scr_creatui();
+scr_createui();
 
 
 
@@ -26,3 +29,7 @@ phy_fixed_rotation = true;
 
 respuesta_i = 0;
 respuesta_f = 0;
+
+//Creador de las posiciones de los botones
+
+button_map = scr_getbuttonmap();

@@ -2,7 +2,7 @@
     "id": "356d9dc2-0d67-4b04-9cb8-312af2072171",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "stick_back",
+    "name": "spr_stick_back",
     "For3D": false,
     "HTile": false,
     "VTile": false,
