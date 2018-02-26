@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "ad74ecb3-b1c9-4834-a226-f7fe5310a2e3",
+            "Value": {
+                "id": "d22c910d-af18-4634-854a-14ba4d93a214",
+                "resourcePath": "sprites\\creado_pc2\\creado_pc2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "afd91fc1-26d1-472e-bb45-c593632670aa",
             "Value": {
                 "id": "17bfc7a1-3233-43be-b89e-544600f4319a",
