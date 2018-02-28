@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "324d0f6d-a6f9-45e0-a238-6d8a1898cedf",
+            "Value": {
+                "id": "9e7a2cfa-e0ee-46a0-b13a-9aaf581142bc",
+                "resourcePath": "objects\\obj_sword_hitbox\\obj_sword_hitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34a50ead-b7ec-4ba2-a318-e8e1215901e8",
             "Value": {
                 "id": "04511a68-bf5e-44a4-b617-11be7ce0fe2e",
@@ -188,6 +196,14 @@
                 "id": "c142101b-1084-4745-a468-1d48478c2682",
                 "resourcePath": "sprites\\spr_nosaveddata\\spr_nosaveddata.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "437d1dbe-350a-4442-bbe1-bd3cbaf6b358",
+            "Value": {
+                "id": "648b6e0b-8d3b-4ed6-9569-cfea0ec77b8f",
+                "resourcePath": "views\\437d1dbe-350a-4442-bbe1-bd3cbaf6b358.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -351,6 +367,14 @@
             }
         },
         {
+            "Key": "87f07053-5e8a-4ea3-ae56-f579b8b05b7f",
+            "Value": {
+                "id": "a0710aff-b50a-46c7-b95e-5dfac800c6db",
+                "resourcePath": "views\\87f07053-5e8a-4ea3-ae56-f579b8b05b7f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8ec86355-31ca-4903-a6f6-cec8a91ce3fd",
             "Value": {
                 "id": "35a5d957-f9a4-4e2c-ac06-c6d807d39db3",
@@ -495,6 +519,14 @@
             }
         },
         {
+            "Key": "c6849031-7d22-4a91-9e92-a40f2d9b57cd",
+            "Value": {
+                "id": "36aab7a1-cd9c-4aaa-b4ac-49753c617684",
+                "resourcePath": "sprites\\hechoporbenja\\hechoporbenja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c7ef7bac-6be7-4a80-a44e-4c62b1f18404",
             "Value": {
                 "id": "cabca568-bab5-493b-b37c-8bdca9098adb",
@@ -620,6 +652,14 @@
                 "id": "7d0f63b9-4578-4c3a-9760-6d7d12fbb1bc",
                 "resourcePath": "scripts\\scr_move\\scr_move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f35d36b9-4d12-48f2-bc78-d77222b379ad",
+            "Value": {
+                "id": "d02fb304-f322-4cf6-aa20-c92cc8331891",
+                "resourcePath": "views\\f35d36b9-4d12-48f2-bc78-d77222b379ad.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
