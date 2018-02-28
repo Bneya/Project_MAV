@@ -5,6 +5,8 @@ key_jump_held = keyboard_check(vk_space);
 
 scr_checkstatus();
 
+scr_showsprite();
+
 
 
 

@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "0b5855f1-2a62-4925-a200-d92fd9db3ef3",
-            "Value": {
-                "id": "a3e881be-8131-4e21-9ade-5914a6bd62e3",
-                "resourcePath": "sprites\\WENAWENA\\WENAWENA.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0ce6fbd4-a86d-4f87-acb9-47f128ac4b74",
             "Value": {
                 "id": "9a4fe162-32d7-4323-8589-c7859954b01a",
@@ -275,6 +267,14 @@
             "Value": {
                 "id": "27649f37-094f-4f7d-b5be-37f510015494",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61d9ec8f-9db3-4e69-9582-738d5fac733a",
+            "Value": {
+                "id": "87f39d55-b172-4b9f-8c9b-dbfa4d05b2e3",
+                "resourcePath": "sprites\\spr_playerstand\\spr_playerstand.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -527,14 +527,6 @@
             }
         },
         {
-            "Key": "c6849031-7d22-4a91-9e92-a40f2d9b57cd",
-            "Value": {
-                "id": "36aab7a1-cd9c-4aaa-b4ac-49753c617684",
-                "resourcePath": "sprites\\hechoporbenja\\hechoporbenja.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c7ef7bac-6be7-4a80-a44e-4c62b1f18404",
             "Value": {
                 "id": "cabca568-bab5-493b-b37c-8bdca9098adb",
@@ -564,6 +556,22 @@
                 "id": "a9eead6d-bfe5-4a68-9fb5-826549bcdd06",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d51066c6-d824-47d9-b166-ae367d258a29",
+            "Value": {
+                "id": "5444283e-dbb2-405b-a9fd-b4a4c7e7a389",
+                "resourcePath": "sprites\\spr_playerwalk\\spr_playerwalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d5cd6320-7381-43a6-99ee-cf45062790b7",
+            "Value": {
+                "id": "533bbe97-5bc4-42b1-8254-854d73b641b5",
+                "resourcePath": "sprites\\spr_playerwalkleft\\spr_playerwalkleft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -741,6 +749,14 @@
                 "resourcePath": "views\\fc253e1a-ab8b-47fd-9283-833b49f621fb.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fd54777e-eebb-4312-b6b3-a0c41774af4b",
+            "Value": {
+                "id": "04c60b80-6184-4d61-9805-dc125819a602",
+                "resourcePath": "scripts\\scr_showsprite\\scr_showsprite.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -752,7 +768,8 @@
         "5694a428-fe00-46d3-aa42-473703812d96",
         "ee06959a-7575-43c1-84d7-fe09e1bb38d9",
         "f77ffa3c-3ae6-4422-8113-3d85e40ef1d8",
-        "32190ca9-6a96-4b82-945c-42baa0bda0e4"
+        "32190ca9-6a96-4b82-945c-42baa0bda0e4",
+        "fd54777e-eebb-4312-b6b3-a0c41774af4b"
     ],
     "tutorial": ""
 }
