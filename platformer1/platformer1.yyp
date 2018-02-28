@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0b5855f1-2a62-4925-a200-d92fd9db3ef3",
+            "Value": {
+                "id": "a3e881be-8131-4e21-9ade-5914a6bd62e3",
+                "resourcePath": "sprites\\WENAWENA\\WENAWENA.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ce6fbd4-a86d-4f87-acb9-47f128ac4b74",
             "Value": {
                 "id": "9a4fe162-32d7-4323-8589-c7859954b01a",
