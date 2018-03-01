@@ -1,7 +1,8 @@
 /// @description Cambia el estado a ataque
 
 if (obj_player.state != "dash" && obj_player.state != "attack") {
-	obj_player.state = "attack";
+	//obj_player.state = "attack";
+	obj_player.atk_locked = true;
 
 }
 

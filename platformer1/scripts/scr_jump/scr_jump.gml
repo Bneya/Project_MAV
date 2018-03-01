@@ -3,7 +3,13 @@
 // Multiplicador de gravedad, hace que el salto sea más rápido
 mult_gravedad = 2;
 
-if (place_meeting(obj_player.phy_position_x, obj_player.phy_position_y + 5, obj_solid) && obj_player.state != "dash"){
+// Estados ----------------------------------------------
+var touching_ground = place_meeting(obj_player.phy_position_x, obj_player.phy_position_y + 5, obj_solid);
+var dashing = obj_player.state == "dash";
+var attacking = obj_player.atk_locked;
+// ------------------------------------------------------
+
+if ( touching_ground && !dashing && !attacking){
 	obj_player.state = "ground";
 	obj_player.vspd = 0;
 	if keyboard_check_pressed(vk_space){
@@ -11,7 +17,7 @@ if (place_meeting(obj_player.phy_position_x, obj_player.phy_position_y + 5, obj_
 		obj_player.respuesta_f = current_time;
 	}
 	
-} else if (obj_player.state != "dash" && obj_player.state != "attack") {
+} else if (!dashing && !attacking) {
 	
 	obj_player.state = "air";
 	
@@ -25,7 +31,7 @@ if (place_meeting(obj_player.phy_position_x, obj_player.phy_position_y + 5, obj_
 	}
 	
 } else {
-	obj_player.vspd += mult_gravedad * 2
+	//obj_player.vspd += mult_gravedad * 2
 
 }
 
