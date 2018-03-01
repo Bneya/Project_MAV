@@ -11,16 +11,22 @@ if (place_meeting(obj_player.phy_position_x, obj_player.phy_position_y + 5, obj_
 		obj_player.respuesta_f = current_time;
 	}
 	
-} else if (obj_player.state != "dash") {
+} else if (obj_player.state != "dash" && obj_player.state != "attack") {
+	
+	obj_player.state = "air";
+	
 	
 	if obj_butjump.pressed_button {
-		obj_player.state = "air";
+		// obj_player.state = "air";
 		obj_player.vspd += mult_gravedad/2;
 	} else{
-		obj_player.state = "air";
+		// obj_player.state = "air";
 		obj_player.vspd += mult_gravedad * 2;
 	}
 	
+} else {
+	obj_player.vspd += mult_gravedad * 2
+
 }
 
 

@@ -32,7 +32,7 @@ var cam_y = camera_get_view_y(view_camera[0]);
 
 coords = obj_player.button_map;
 
-for (var i = 0; i <= 3; i += 1) {
+for (var i = 0; i <= 4; i += 1) {
 	coords[i, 0].x = cam_x + coords[i, 1];
 	coords[i, 0].y = cam_y + coords[i, 2];
 }

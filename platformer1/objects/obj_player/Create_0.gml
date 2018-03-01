@@ -7,10 +7,13 @@ jump_h = 20;
 accel = 1;
 current_dash = 0;
 facing = 1;
+current_wptype = "greatsword";
 
 // Stats del personaje
 mspd = 10;
 dash_spd = 40;
+jump_number = 1;
+maxhp = 100;
 
 
 
@@ -33,3 +36,7 @@ respuesta_f = 0;
 //Creador de las posiciones de los botones
 
 button_map = scr_getbuttonmap();
+
+
+// Crear el map de los ataques
+atkmap = scr_getattackmap();

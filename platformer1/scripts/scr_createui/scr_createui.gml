@@ -19,3 +19,4 @@ instance_create_depth(stick_x, stick_y, -101, obj_stickfront);
 
 instance_create_depth(but_jump_x, but_jump_y, -101, obj_butjump);
 instance_create_depth(1, 1, -101, obj_butdash);
+instance_create_depth(1, 1, -101, obj_butattack);

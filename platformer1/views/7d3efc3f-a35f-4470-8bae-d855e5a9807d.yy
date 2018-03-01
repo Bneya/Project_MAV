@@ -11,7 +11,8 @@
         "ed5ed95b-0c4a-4d4b-bbb0-e87ad9514454",
         "ede39024-5d35-4fd9-826e-445d8344a23f",
         "13560680-e2bf-4b08-83b8-d7a51480335a",
-        "ecb5fadf-745d-4212-adb0-5eeef0de3138"
+        "ecb5fadf-745d-4212-adb0-5eeef0de3138",
+        "854bead2-236e-4352-b230-d0bf8ccb0acd"
     ],
     "filterType": "GMSprite",
     "folderName": "Buttons",
