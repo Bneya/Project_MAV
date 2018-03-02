@@ -8,7 +8,9 @@ accel = 1;
 current_dash = 0;
 facing = 1;
 current_wptype = "greatsword";
+current_wpequip = obj_greatsword_hitbox;
 atk_locked = false;
+current_atktime = 0;
 
 // Stats del personaje
 mspd = 10;

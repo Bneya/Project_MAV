@@ -1,6 +1,8 @@
 //Move script
 
-var hspd = obj_player.mspd * obj_stickfront.spd_multiplier;
+if (!obj_player.atk_locked) {                                      //No te puedes move si estás atacando
+	
+	var hspd = obj_player.mspd * obj_stickfront.spd_multiplier;
 
 obj_player.hspd = hspd;
 
@@ -11,4 +13,7 @@ if hspd > 0 {
 } else if hspd < 0 {
 	obj_player.facing = -1;
 }
+
+}
+
 

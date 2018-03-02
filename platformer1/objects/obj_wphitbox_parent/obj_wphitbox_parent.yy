@@ -1,8 +1,8 @@
 {
-    "id": "324d0f6d-a6f9-45e0-a238-6d8a1898cedf",
+    "id": "d39762c0-a2d0-4640-aaae-7feac39f2b60",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sword_hitbox",
+    "name": "obj_wphitbox_parent",
     "eventList": [
         
     ],
