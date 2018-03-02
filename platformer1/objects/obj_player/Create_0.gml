@@ -1,22 +1,32 @@
 /// @description Create variables
 
-// Variables de funcionamiento
+// --------------Variables de funcionamiento------------------
+
+// Variables de movimiento
 hspd = 0;
 vspd = 0;
 jump_h = 20;
 accel = 1;
 current_dash = 0;
 facing = 1;
+
+// Variables de ataque
 current_wptype = "greatsword";
 current_wpequip = obj_greatsword_hitbox;
 atk_locked = false;
 current_atktime = 0;
+current_sta = 100;
+sta_recovering = true;
+
+
+// -----------------------------------------------------------
 
 // Stats del personaje
 mspd = 10;
 dash_spd = 40;
 jump_number = 1;
 maxhp = 100;
+maxsta = 100;
 
 
 

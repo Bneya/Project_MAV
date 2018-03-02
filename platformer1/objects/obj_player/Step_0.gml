@@ -7,6 +7,8 @@ scr_checkstatus();
 
 scr_showsprite();
 
+scr_recover_sta();
+
 
 
 

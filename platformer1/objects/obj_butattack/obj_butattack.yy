@@ -5,7 +5,17 @@
     "name": "obj_butattack",
     "eventList": [
         {
-            "id": "c040d648-b5ce-4f24-824e-f7205b62edf7",
+            "id": "636d3515-b988-49d2-8445-20144976b084",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 13,
+            "m_owner": "cf31a7d0-f68f-4e62-9007-fb4e5f6115ee"
+        },
+        {
+            "id": "05305290-f1fa-420f-a14e-e49c0903a309",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
