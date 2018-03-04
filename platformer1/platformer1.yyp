@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "4c9cdf00-59ed-4931-b640-90818c8dbe8d",
+            "Value": {
+                "id": "244d7c20-740b-48ea-92dd-c4356a79b81f",
+                "resourcePath": "sprites\\Levitating_tech_platf_sprt\\Levitating_tech_platf_sprt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d12941a-116b-47c5-a770-ba9f6506ca5e",
             "Value": {
                 "id": "a48cc37a-fdeb-4597-be73-d51be7ebe5c1",
@@ -284,6 +292,14 @@
                 "id": "abef9b41-ecbc-4111-924f-fa279722b6ae",
                 "resourcePath": "scripts\\scr_recover_sta\\scr_recover_sta.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5f0eba1c-252b-47db-a41d-527973af3c45",
+            "Value": {
+                "id": "8e7093bb-69fd-45b0-9871-cdb79a3bad2d",
+                "resourcePath": "sprites\\spr_Controlpannel\\spr_Controlpannel.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
