@@ -1,6 +1,6 @@
 
 {
-    "name": "room3",
+    "name": "AA",
     "id": "c8f7cc63-b8ec-4582-b7e1-6281eb0112f9",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -178,9 +178,9 @@
         "id": "c420df24-1d9a-4100-b1b9-21ae45a74568",
         "inheritPhysicsSettings": false,
         "modelName": "GMRoomPhysicsSettings",
-        "PhysicsWorld": false,
+        "PhysicsWorld": true,
         "PhysicsWorldGravityX": 0,
-        "PhysicsWorldGravityY": 10,
+        "PhysicsWorldGravityY": 1,
         "PhysicsWorldPixToMeters": 0.1,
         "mvc": "1.0"
     },

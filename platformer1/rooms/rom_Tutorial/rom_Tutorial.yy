@@ -1,6 +1,6 @@
 
 {
-    "name": "room3",
+    "name": "rom_Tutorial",
     "id": "c8f7cc63-b8ec-4582-b7e1-6281eb0112f9",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-                {"name": "inst_3B637F8F","id": "6816f42d-5a82-4bf8-9f2d-ca391596418c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3B637F8F","objId": "ad6ba117-9965-4c81-9840-9510c8a596ea","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 128,"y": 864}
+                {"name": "inst_3B637F8F","id": "6816f42d-5a82-4bf8-9f2d-ca391596418c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3B637F8F","objId": "ad6ba117-9965-4c81-9840-9510c8a596ea","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 864}
             ],
             "layers": [
 
@@ -178,7 +178,7 @@
         "id": "c420df24-1d9a-4100-b1b9-21ae45a74568",
         "inheritPhysicsSettings": false,
         "modelName": "GMRoomPhysicsSettings",
-        "PhysicsWorld": false,
+        "PhysicsWorld": true,
         "PhysicsWorldGravityX": 0,
         "PhysicsWorldGravityY": 10,
         "PhysicsWorldPixToMeters": 0.1,
