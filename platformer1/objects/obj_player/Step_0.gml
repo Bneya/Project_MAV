@@ -9,6 +9,15 @@ scr_showsprite();
 
 scr_recover_sta();
 
+if (place_meeting(x,y,oBOSS1))
+{
+	current_hp -= 10;
+}
+
+if (place_meeting(x,y,oBOSS_BULLET1))
+{
+	current_hp -= 2;
+}
 
 
 

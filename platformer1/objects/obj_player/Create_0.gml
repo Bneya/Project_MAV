@@ -27,6 +27,7 @@ dash_spd = 40;
 jump_number = 1;
 maxhp = 100;
 maxsta = 100;
+current_hp = 100;
 
 
 
