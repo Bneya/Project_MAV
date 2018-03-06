@@ -16,5 +16,6 @@ draw_text(10, 70, "mouse pos: " + string(device_mouse_x(1)) + "; " + string(devi
 draw_text(10, 90, "STA: " + string(current_sta) + " / " + string(maxsta));
 draw_text(10, 110, "delay botón: " + string(respuesta_f - respuesta_i) + " ms");
 draw_text(10, 130, "dedo apretado: " + string(obj_stickfront.dedo));
-draw_text_color(100,50,"Boss Hp: " + string(oBOSS1.hitpoints),c_black,c_black,c_black,c_black,1);
-draw_text_color(100,70,"PLayer Hp: " + string(obj_player.current_hp),c_black,c_black,c_black,c_black,1);
+draw_text_color(400,50,"Boss Hp: " + string(oBOSS1.hitpoints),c_black,c_black,c_black,c_black,1);
+draw_text_color(400,70,"PLayer Hp: " + string(obj_player.current_hp),c_black,c_black,c_black,c_black,1);
+draw_text(400,30,"Boss x: "+ string(oBOSS1.phy_position_x));
