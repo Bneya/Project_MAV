@@ -5,13 +5,23 @@
     "name": "oBOSS_BULLET1",
     "eventList": [
         {
-            "id": "1ae51343-ec1b-414c-97c2-db4886e04960",
+            "id": "829ca121-8a5e-4efa-bcec-b5a5a66e89e5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "2a3ace65-752e-42ba-aac0-1292b52a7584"
+        },
+        {
+            "id": "a7cc1bd5-d2b6-4ff6-802d-c53351ea354d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "2a3ace65-752e-42ba-aac0-1292b52a7584"
         }
     ],

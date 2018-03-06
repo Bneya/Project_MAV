@@ -9,15 +9,23 @@ scr_showsprite();
 
 scr_recover_sta();
 
-if (place_meeting(x,y,oBOSS1))
+if (!invu)
 {
-	current_hp -= 10;
+	if (place_meeting(x,y,oBOSS1))
+	{
+		current_hp -= 10;
+		invu = true;
+		alarm[2] = 1*room_speed;
+	}
+	if (place_meeting(x,y,oBOSS_BULLET1))
+	{
+		current_hp -= 2;
+		invu = true;
+		alarm[2] = 1*room_speed;
+	}
 }
 
-if (place_meeting(x,y,oBOSS_BULLET1))
-{
-	current_hp -= 2;
-}
+
 
 
 
