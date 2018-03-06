@@ -74,10 +74,11 @@ if (global.phase == 3)
 	{
 		phy_speed_x = -9;
 	}
-	if (floor(random(50)) < 3)
+	if (floor(random(50)) < 10)
 	{
 		instance_create_layer(x,y,"holahola",oBOSS_BULLET1);
 	}
+	
 }
 
 
